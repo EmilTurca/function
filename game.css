@@ -1,0 +1,30 @@
+body {
+    background-color: #333;
+    color: white;
+}
+.gameMap {
+    height: 500px;
+    width: 500px;
+    border: 10px solid #666;
+}
+.gameMap > div {
+    width: 48px;
+    height: 48px;
+    border: 1px solid #555;
+    float: left;
+}
+.gameMap > .pac {
+    background-image: url(https://icons.iconarchive.com/icons/mazenl77/I-like-buttons-3a/32/Cute-Ball-Games-icon.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.gameMap > .coin {
+    background-image: url(https://icons.iconarchive.com/icons/custom-icon-design/pretty-office-11/48/coin-us-dollar-icon.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.gameMap > .bomb {
+    background-image: url(https://icons.iconarchive.com/icons/oxygen-icons.org/oxygen/48/Actions-edit-bomb-icon.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
